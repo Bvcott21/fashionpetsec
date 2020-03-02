@@ -1,0 +1,127 @@
+body{
+  font-family: 'Montserrat'
+}
+
+h2 {
+  padding-top: 30px;
+  font-weight: 900;
+  font-family: Lobster;
+  font-size: 5rem;
+}
+
+/* h3 {
+  padding-bottom: 0.8rem;
+  font-family: Lobster;
+  font-size: 2.5rem;
+} */
+
+.logotext {
+  width: 180px;
+}
+
+.logoimage {
+  width: 90px;
+}
+
+.mainnavbar {
+  background-color: #1d3c54;
+  color: #d2d2d2;
+}
+
+.introduction-section {
+  text-align: center;
+  background-image: url('https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?cs=srgb&dl=adorable-blur-breed-close-up-406014.jpg&fm=jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+  padding: 130px 150px 342px;
+}
+
+.intro-container{
+  background-image: url('images/dog-intro.jpg');
+  padding-bottom: 3rem;
+}
+
+.introduction-col {
+  color: #1d3c54;
+}
+
+.titulo{
+  font-family: Lobster;
+  color: #1d3c54;
+  padding-bottom: 0.5rem;
+}
+
+.subtitulo {
+  color: #1d3c54;
+}
+.btntitulo {
+  background-color: #1d3c54;
+  color: #d2d2d2;
+}
+
+.btntitulo:hover {
+  background: #00334e;
+  color: #d2d2d2;
+}
+
+
+/* descripciones */
+
+.descripciones {
+  text-align: center;
+  background-color: #d2d2d2;
+  color: #1d3c54;
+}
+.descripciones-logo {
+  padding-bottom: 1rem;
+}
+ .descripciones-titulo {
+  padding-bottom: 0.8rem;
+  font-family: Lobster;
+  font-size: 2.5rem;
+ }
+
+.descripciones-logo:hover {
+  color: #00334e;
+}
+
+.container-descrip {
+  padding: 50px 120px;
+}
+
+.descrip-logo-row {
+  padding-bottom: 50px;
+}
+
+/* clientes */
+
+.clientes {
+  background-color: #1d3c54 ;
+  color: #d2d2d2;
+
+  text-align: center;
+}
+
+.clientes-texto {
+  font-size: 1.2rem;
+}
+
+.carousel-inner { 
+  text-align: center;
+}
+
+.clientes-descrip-carousel {
+  text-align: center;
+  
+}
+
+.clientes-subtitulos {
+  padding-bottom: 0.8rem;
+  font-family: Lobster;
+  font-size: 2.5rem;
+}
+
+.clientes-img {
+
+}
