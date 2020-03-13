@@ -1,0 +1,25 @@
+{
+  "name": "fashion-pets",
+  "version": "1.1.0",
+  "description": "Web design of a Pet Styling site",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bvcott21/fashion-pets.git"
+  },
+  "author": "Edgar Bucott Afonso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bvcott21/fashion-pets/issues"
+  },
+  "homepage": "https://github.com/Bvcott21/fashion-pets#readme"
+}
