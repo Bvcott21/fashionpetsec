@@ -1,0 +1,197 @@
+<%- include ("./partials/header") %>
+
+<section class="introduction-section-precios">
+
+  <div class="container my-auto">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-6">
+        <h1 class="titulo-precios">Precios</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="precios-section pb-1">
+
+  <div class="row justify-content-center d-flex">
+    <h2 class="precios-subtitulo">Por que nos Preocupamos por Ambos</h2>
+  </div>
+
+  <div class="row justify-content-center">
+    <p class="descripcion-precios mx-5">Porque no solo nos preocupamos por tu amigo, sino que también por tu tranquilidad, hemos diseñado este formulario y no un rango fijo de precios, para que podamos estimar un precio justo y acorde tanto a tus
+      necesidades como a las de tus amigos. Si estas interesad@ en nuestros servicios basta con rellenar este formulario y te responderemos en la prontitud posible</p>
+  </div>
+
+  <div class="container">
+
+
+  <form class="form-group form-check form-row align-items-center justify-content-center forma-precios" action="mailto:bvcott@outlook.com?subject=Nueva Orden&body=nombre%0d%0aapellido" method="POST">
+
+    <h2 class="sobre-ti pb-5">Sobre Ti...</h2>
+
+    <div class="row">
+      <div class="form-group col-md-6">
+        <input type="text" class="form-control" placeholder="Nombre" name="nombre">
+      </div>
+      <div class="form-group col-md-6">
+        <input type="text" class="form-control" placeholder="Apellido" name="apellido">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="form-group col-md-12">
+        <input type="text" class="form-control" placeholder="Dirección" name="direccion">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="form-group col-md-3">
+        <input type="text" class="form-control" placeholder="Telefono" name="telefono">
+      </div>
+      <div class="form-group col-md-9">
+        <input type="email" class="form-control" placeholder="Correo" name="correo">
+      </div>
+    </div>
+
+    <h2 class="sobre-ti py-5">Sobre Tu Mascota...</h2>
+
+    <div class="row">
+      <div class="form-group col-md-4">
+        <input type="text" class="form-control" placeholder="Nombre" name="nombreMascota">
+      </div>
+      <div class="form-group col-md-4">
+        <input type="text" class="form-control" placeholder="Especie" name="especie">
+      </div>
+      <div class="form-group col-md-4">
+        <input type="text" class="form-control" placeholder="Raza" name="raza">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="form-group col-md-4">
+        <select class="form-control" id="exampleFormControlSelect1" name="peso">
+          <option selected disabled value="">Cuanto Pesa?</option>
+          <option>entre 1 y 15 kg</option>
+          <option>entre 15 y 25 kg</option>
+          <option>entre 25 y 45 kg</option>
+          <option>mas de 45 kg</option>
+          <option>No estoy segur@</option>
+        </select>
+        <div class="invalid-feedback">
+          Por favor, selecciona un valor!
+        </div>
+      </div>
+      <div class="form-group col-md-4">
+        <select class="form-control" id="exampleFormControlSelect1" name="altura">
+          <option selected disabled value="">Cuanto Mide?</option>
+          <option>30 cm o menos</option>
+          <option>entre 30 y 40 cm</option>
+          <option>entre 40 y 60 cm</option>
+          <option>mas de 60 cm</option>
+          <option>No estoy segur@</option>
+        </select>
+        <div class="invalid-feedback">
+          Por favor, selecciona un valor!
+        </div>
+      </div>
+    </div>
+
+  <h2 class="sobre-ti py-3">Si gustas, puedes incluir una foto de tu mascota para mejor referencia</h2>
+
+    <div class="row">
+      <div class="col-12">
+        <input type="file" class="form-control-file" id="exampleFormControlFile1" name="imagenMascota">
+      </div>
+    </div>
+
+
+      <h2 class="sobre-ti py-3"> De cuales servicios gustarias que tu amigo gozara?</h2>
+
+
+    <div class="row">
+        <div class="col-6 custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="corteDeUnas" name="corteUnas">
+          <label class="custom-control-label" for="corteDeUnas">Corte de Uñas</label>
+        </div>
+    <div class="col-6 custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="limpiezaDeOidos" name="limpiezaOidos">
+      <label class="custom-control-label" for="limpiezaDeOidos"> Limpieza de Oidos</label>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-6 custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="limpiezaDeLagrimales" name="limpiezaLagrimales">
+          <label class="custom-control-label" for="limpiezaDeLagrimales">Limpieza de Lagrimales</label>
+        </div>
+    <div class="col-6 custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="drenajeDeGlandulasPerianales" name="perianales">
+      <label class="custom-control-label" for="drenajeDeGlandulasPerianales">Drenaje de Glandulas Perianales</label>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-6 custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="cepilladoDeDientesSuperficial" name="cepilladoDientes">
+          <label class="custom-control-label" for="cepilladoDeDientesSuperficial">Cepillado de Dientes Superficial</label>
+        </div>
+    <div class="col-6 custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="limpiezaDeAlmohadillasPlantares" name="limpiezaAlmohadillas">
+      <label class="custom-control-label" for="limpiezaDeAlmohadillasPlantares">Limpieza de Almohadillas Plantares</label>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-6 custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="banoCosmetico" name="banoCosmetico">
+          <label class="custom-control-label" for="banoCosmetico">Bano Cosmetico</label>
+        </div>
+    <div class="col-6 custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="corteConEstilo" name="corteEstilo">
+      <label class="custom-control-label" for="corteConEstilo">Corte con Estilo</label>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-6 custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="accesorio" name="accesorio">
+          <label class="custom-control-label" for="accesorio">Accesorio</label>
+        </div>
+    </div>
+
+    <h2 class="sobre-ti py-3">En que fecha?</h2>
+
+    <div class="row">
+      <div class="form-group col-md-6">
+        <input type="date" class="form-control" placeholder="En que fecha?" name="fecha">
+      </div>
+    </div>
+
+    <h2 class="sobre-ti pb-3">Donde Prefieres que reciba los servicios?</h2>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="A Domicilio" name="domicilio">
+      <label class="form-check-label" for="inlineRadio1">A Domicilio</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="En sus Instalaciones" name="instalaciones">
+      <label class="form-check-label" for="inlineRadio2">En sus Instalaciones</label>
+    </div>
+
+    <h2 class="sobre-ti"> Deja tu Comentario...</h2>
+    <p>Si tu mascota tiene alguna necesidad especial, tambien escribe aqui si tiene alguna condicion o cualquier consideracion que necesitemos en cuenta a la hora de atenderle.</p>
+
+    <div class="row">
+      <div class="col-12">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    </div>
+
+    <div class="row py-5">
+      <input type="submit" class="btn btn-formulario btn-lg" value="Enviar Formulario">
+    </div>
+
+
+  </form>
+
+    </div>
+
+
+</section>
+
+<%- include ("./partials/footer") %>

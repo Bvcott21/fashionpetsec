@@ -9,11 +9,9 @@ h2 {
   font-size: 5rem;
 }
 
-/* h3 {
-  padding-bottom: 0.8rem;
-  font-family: Lobster;
-  font-size: 2.5rem;
-} */
+h4{
+  font-size: 2rem;
+}
 
 .logotext {
   width: 180px;
@@ -30,9 +28,9 @@ h2 {
 
 .introduction-section {
   text-align: center;
-  background-image: url('https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?cs=srgb&dl=adorable-blur-breed-close-up-406014.jpg&fm=jpg'); 
-  background-repeat: no-repeat; 
-  background-size: cover; 
+  background-image: url('https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?cs=srgb&dl=adorable-blur-breed-close-up-406014.jpg&fm=jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center center;
   padding: 130px 150px 342px;
 }
@@ -99,7 +97,8 @@ h2 {
 .clientes {
   background-color: #1d3c54 ;
   color: #d2d2d2;
-
+  padding-right: 1rem;
+  padding-left:1rem;
   text-align: center;
 }
 
@@ -107,13 +106,13 @@ h2 {
   font-size: 1.2rem;
 }
 
-.carousel-inner { 
+.carousel-inner {
   text-align: center;
 }
 
 .clientes-descrip-carousel {
   text-align: center;
-  
+
 }
 
 .clientes-subtitulos {
@@ -123,5 +122,314 @@ h2 {
 }
 
 .clientes-img {
+
+}
+
+
+
+
+/*  */
+/*  */
+/*  */
+
+/* Servicios */
+
+.introduction-section-servicios {
+  text-align: center;
+  background-image: url('https://images.pexels.com/photos/774731/pexels-photo-774731.jpeg?cs=srgb&dl=grey-kitten-on-floor-774731.jpg&fm=jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 190px 150px 282px;
+}
+
+.titulo-servicios {
+  color: #d2d2d2;
+  font-family: Lobster;
+  padding-top: 6rem;
+  font-size: 4rem;
+}
+
+.descripcion-servicios {
+  background-color: #1d3c54;
+  color: #d2d2d2;
+}
+
+.lista-servicios-titulo {
+  text-align: center;
+  font-family: 'Lobster';
+  font-size: 4rem;
+  padding: 1.4rem 0;
+}
+
+.col-lista-servicios {
+
+}
+
+.lista-servicios {
+  text-align: justify;
+
+}
+
+.foto-servicios {
+  text-align: center;
+}
+
+.servicios-img-1 {
+  width: 20rem;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.importancia-servicios {
+  background-color: #d2d2d2;
+  color: #00334e;
+  font-family: 'Lobster';
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.importancia-servicios-titulo {
+  padding: 2rem 0
+}
+
+.importancia-servicios-titulo-texto {
+  font-size: 1rem;
+  text-align: justify;
+  font-family: 'Montserrat';
+  padding: 1rem;
+}
+
+.importancia-servicios-subtitulo {
+  padding: 2rem 0;
+
+}
+
+.importancia-servicios-subtitulo-texto {
+  font-size: 1rem;
+  text-align: justify;
+  font-family: 'Montserrat';
+  padding: 1rem;
+}
+
+.servicios-img-2 {
+  width: 20rem;
+  position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+}
+
+.servicios-img-2-under-800 {
+  width: 20rem;
+  text-align: center;
+  position: static;
+  display: block;
+  margin: auto;
+}
+
+.quienes-somos {
+  background-color: #1d3c54;
+  color: #d2d2d2;
+  padding: 0 1rem;
+}
+
+.quienes-somos-titulo {
+  font-family: Lobster;
+  font-size: 4rem;
+  padding: 1.4rem 0;
+}
+
+.quienes-somos-img {
+
+  width: 25rem;
+  margin: 10px 20px 10px 15px;
+  padding: 20px;
+}
+
+.columna-quienes-somos {
+  padding: 0 1rem 1rem;
+}
+
+/*  */
+/*  */
+/*  */
+
+/* Precios */
+
+.introduction-section-precios {
+  text-align: center;
+  background-image: url('https://s1.1zoom.me/b5050/885/Dogs_Cats_Guinea_pigs_White_background_Three_3_564019_1366x768.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 190px 150px 282px;
+}
+
+.precios-section {
+  background-color: #1d3c54;
+  color: #d2d2d2;
+  padding: 0 2rem;
+}
+
+.titulo-precios {
+  color: #1d3c54;
+  font-family: Lobster;
+  padding-top: 6rem;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.precios-subtitulo{
+  font-size: 3rem;
+}
+
+.descripcion-precios {
+
+}
+
+.forma-precios {
+  width: 65%;
+  align-items: center;
+}
+
+.sobre-ti {
+  font-size: 2rem;
+  font-family: Lobster;
+}
+
+.btn-formulario {
+  background-color: #d2d2d2;
+  color: #1d3c54;
+}
+
+/*
+
+
+ */
+
+ /* Contacto */
+
+ .contacto-section {
+   background-color: #d2d2d2;
+   color: #1d3c54;
+ }
+ .contacto-titulo {
+   font-size: 3rem;
+   font-family: Lobster;
+   text-align: center;
+ }
+
+.contacto-subtitulo {
+  font-family; Montserrat;
+  text-align: justify;
+}
+
+.contacto-img {
+  text-align: center;
+}
+
+.contacto-link {
+  color: #1d3c54;
+}
+
+.contacto-imagen {
+  width: 55%;
+  text-align: center;
+}
+
+/* Footer */
+
+
+.footer-section-1 {
+color: #1d3c54;
+background-color: #d2d2d2;
+padding: 2rem 0 5rem;
+}
+
+.footer-section-1-under-800 {
+  padding: 1rem 0;
+  color: #1d3c54;
+  background-color: #d2d2d2;
+}
+
+.footer-section-2 {
+color: #d2d2d2;
+background-color: #1d3c54;
+padding-bottom: 1rem;
+padding-top:1rem;
+}
+
+.footer-link {
+  color: #1d3c54;
+  font-family: Lobster;
+
+}
+
+.footer-link:hover {
+  color: #00334e;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+/* Tablet Deployment */
+
+@media screen and (max-width: 1082px) {
+
+  .introduction-section {
+    text-align: center;
+    background-position: center center;
+    padding: 80px 10px 300px;
+  }
+
+
+
+
+
+/* Mobile Deployment */
+
+@media screen and (max-width: 800px) {
+
+/*  */
+/*  */
+/*  */
+
+/* Home */
+
+.introduction-section {
+  text-align: center;
+  background-position: center center;
+  padding: 80px 10px 140px;
+}
+
+.btninfo{
+  margin-bottom: 20px;
+  margin-top:80px;
+}
+
+.clientes-subtitulos {
+  margin: 0 2.5rem;
+}
+
+.clientes-testimonio {
+  margin: 0 5rem;
+}
+
+/*  */
+/*  */
+/*  */
+
+/* Servicios */
+
+.col-lista-servicios {
+  text-align: center;
+}
+
+
 
 }

@@ -1,9 +1,94 @@
+<section class="footer-section-1">
+
+<div class="container-fluid text-center">
+
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-4">
+      <a class="footer-link" href="/contacto">
+        <div class="row justify-content-center">
+          <h4>Contactanos</h4>
+        </div>
+        <div class="row justify-content-center">
+            <i class="far fa-3x fa-address-book" id="footerImg1"></i>
+        </div></a>
+    </div>
+
+    <div class="col-md-4">
+      <a class="footer-link" href="/servicios">
+        <div class="row justify-content-center">
+          <h4>Nuestros Servicios</h4>
+        </div>
+        <div class="row justify-content-center">
+          <i class="fas fa-3x fa-concierge-bell" id="footerImg2"></i>
+        </div></a>
+    </div>
+
+    <div class="col-md-4">
+      <a class="footer-link" href="/precios">
+        <div class="row justify-content-center">
+          <h4>Precios</h4>
+        </div>
+        <div class="row justify-content-center">
+          <i class="fas fa-3x fa-wallet" id="footerImg3"></i>
+        </div></a>
+    </div>
+
+  </div>
+
+
+
+
+</div>
+
+</section>
+
+<section class="footer-section-2">
+  <div class="text-center">
+    <p>© <strong>Fashion Pets.</strong>  Todos los derechos reservados. Desarrollado por <strong>Edgar Bucott Afonso.</strong> </p>
+  </div>
+
+</section>
+
+<script type='text/javascript'>
+
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+
+  $("#link-a-quienes-somos").click(function(){   //id of the link which is being clicked
+        $('html, body').animate({
+               scrollTop: $("#quienes-somos").offset().top   //id of div to be scrolled
+        }, 1000);
+  });
+
+
+       if ($(window).width() < 800) {
+
+/////////////////////////////// Home ///////////////////////////////
+   $("#footerImg1").removeClass("fa-address-book");
+   $("#footerImg2").removeClass("fa-concierge-bell");
+   $("#footerImg3").removeClass("fa-wallet");
+
+   $(".footer-section-1").removeClass("footer-section-1").addClass("footer-section-1-under-800");
+
+///////////////////////////// Servicios /////////////////////////////
+
+   $('.col-lista-servicios').removeClass("col-lg").addClass("col-9");
+
+   $('.serv-img-2').removeClass('servicios-img-2').addClass('servicios-img-2-under-800');
+}
+
+    </script>
+
+
 <!-- JQuery: -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <!-- Javascript     -->
 
-<script src="index.js" charset="utf-8"></script>
+
+
 
 </body>
 </html>
