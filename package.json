@@ -12,11 +12,12 @@
     "jquery": "^3.4.1",
     "engines": {
     "node": "^12.16.x",
-    "npm": "6.x"},
-    "start": "node app.js"
+    "npm": "6.x"}
+
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node app.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
