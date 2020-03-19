@@ -8,7 +8,8 @@
     "bootstrap-icons": "^1.0.0-alpha2",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "start": "node app.js"
   },
   "devDependencies": {},
   "scripts": {
