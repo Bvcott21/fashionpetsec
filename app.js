@@ -3,12 +3,14 @@ const express = require("express");
 const bodyParser = require("body-parser");
 var $ = require("jquery");
 
+var port = process.env.PORT || 8080;
+
 const app = express();
 
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static("public"));
+app.use(express.static(__dirname + '/public'));
 
 
 
@@ -77,6 +79,6 @@ app.route("/contacto")
 });
 
 /////////////////////////////////////////////////////////////////////
-app.listen(process.env.PORT, function() {
+app.listen(port, function() {
   console.log("Server running on port 3000...");
 });
