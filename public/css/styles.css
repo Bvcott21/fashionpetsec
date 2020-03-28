@@ -344,6 +344,43 @@ h4{
   height: 10%;
 }
 
+/* 
+
+
+*/
+
+/* Gracias */
+
+.introduction-section-gracias {
+  text-align: center;
+  background-image: url('https://i.pinimg.com/originals/f9/a1/2b/f9a12bc77f559f40c1477ea1c84687e6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 190px 130px 282px;
+}
+
+.titulo-gracias {
+  font-family: Lobster;
+  font-size: 5rem;
+  color: #1d3c54;
+}
+
+.gracias-section {
+  font-family: Montsterrat;
+  font-size: 1.2rem;
+  color: #d2d2d2;
+  background-color: #1d3c54;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.muchas-gracias {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 /* Footer */
 
 

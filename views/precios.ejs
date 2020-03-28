@@ -1,5 +1,7 @@
 <%- include ("./partials/header") %>
 
+
+
 <section class="introduction-section-precios">
 
   <div class="container my-auto">
@@ -25,31 +27,31 @@
   <div class="container">
 
 
-  <form class="form-group form-check form-row align-items-center justify-content-center forma-precios" action="mailto:bvcott@outlook.com?subject=Nueva Orden&body=nombre%0d%0aapellido" method="POST">
+  <form class="form-group form-check form-row align-items-center justify-content-center forma-precios" action="/precios" method="post">
 
     <h2 class="sobre-ti pb-5">Sobre Ti...</h2>
 
     <div class="row">
       <div class="form-group col-md-6">
-        <input type="text" class="form-control" placeholder="Nombre" name="nombre">
+        <input type="text" class="form-control" placeholder="Nombre" name="nombre" required>
       </div>
       <div class="form-group col-md-6">
-        <input type="text" class="form-control" placeholder="Apellido" name="apellido">
+        <input type="text" class="form-control" placeholder="Apellido" name="apellido" required>
       </div>
     </div>
 
     <div class="row">
       <div class="form-group col-md-12">
-        <input type="text" class="form-control" placeholder="Dirección" name="direccion">
+        <input type="text" class="form-control" placeholder="Dirección" name="direccion" required>
       </div>
     </div>
 
     <div class="row">
       <div class="form-group col-md-3">
-        <input type="text" class="form-control" placeholder="Telefono" name="telefono">
+        <input type="text" class="form-control" placeholder="Telefono" name="telefono" required>
       </div>
       <div class="form-group col-md-9">
-        <input type="email" class="form-control" placeholder="Correo" name="correo">
+        <input type="email" class="form-control" placeholder="Correo" name="correo" required>
       </div>
     </div>
 
@@ -57,50 +59,42 @@
 
     <div class="row">
       <div class="form-group col-md-4">
-        <input type="text" class="form-control" placeholder="Nombre" name="nombreMascota">
+        <input type="text" class="form-control" placeholder="Nombre" name="nombreMascota" required>
       </div>
       <div class="form-group col-md-4">
-        <input type="text" class="form-control" placeholder="Especie" name="especie">
+        <input type="text" class="form-control" placeholder="Especie" name="especie" required>
       </div>
       <div class="form-group col-md-4">
-        <input type="text" class="form-control" placeholder="Raza" name="raza">
+        <input type="text" class="form-control" placeholder="Raza" name="raza"required>
       </div>
     </div>
 
     <div class="row">
       <div class="form-group col-md-4">
-        <select class="form-control" id="exampleFormControlSelect1" name="peso">
+        <select class="form-control" id="exampleFormControlSelect1" name="peso" required>
           <option selected disabled value="">Cuanto Pesa?</option>
-          <option>entre 1 y 15 kg</option>
-          <option>entre 15 y 25 kg</option>
-          <option>entre 25 y 45 kg</option>
-          <option>mas de 45 kg</option>
-          <option>No estoy segur@</option>
+          <option value="Entre 1 y 15 kg">entre 1 y 15 kg</option>
+          <option value="Entre 15 y 25 kg">entre 15 y 25 kg</option>
+          <option value="Entre 25 y 45 k">entre 25 y 45 kg</option>
+          <option value="Mas de 45 kg">mas de 45 kg</option>
+          <option value="No estoy segur@">No estoy segur@</option>
         </select>
         <div class="invalid-feedback">
           Por favor, selecciona un valor!
         </div>
       </div>
       <div class="form-group col-md-4">
-        <select class="form-control" id="exampleFormControlSelect1" name="altura">
+        <select class="form-control altura" id="altura" name="altura" required>
           <option selected disabled value="">Cuanto Mide?</option>
-          <option>30 cm o menos</option>
-          <option>entre 30 y 40 cm</option>
-          <option>entre 40 y 60 cm</option>
-          <option>mas de 60 cm</option>
-          <option>No estoy segur@</option>
+          <option value="30cm">30 cm o menos</option>
+          <option value="Entre 30 y 40 cm">entre 30 y 40 cm</option>
+          <option value="entre 40 y 60 cm">entre 40 y 60 cm</option>
+          <option value="Mas de 60 cm">mas de 60 cm</option>
+          <option value="No estoy segur@">No estoy segur@</option>
         </select>
         <div class="invalid-feedback">
           Por favor, selecciona un valor!
         </div>
-      </div>
-    </div>
-
-  <h2 class="sobre-ti py-3">Si gustas, puedes incluir una foto de tu mascota para mejor referencia</h2>
-
-    <div class="row">
-      <div class="col-12">
-        <input type="file" class="form-control-file" id="exampleFormControlFile1" name="imagenMascota">
       </div>
     </div>
 
@@ -110,47 +104,47 @@
 
     <div class="row">
         <div class="col-6 custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input" id="corteDeUnas" name="corteUnas">
+          <input type="checkbox" class="custom-control-input" id="corteDeUnas" name="corteUnas" value="Corte de Uñas ">
           <label class="custom-control-label" for="corteDeUnas">Corte de Uñas</label>
         </div>
     <div class="col-6 custom-control custom-checkbox">
-      <input type="checkbox" class="custom-control-input" id="limpiezaDeOidos" name="limpiezaOidos">
+      <input type="checkbox" class="custom-control-input" id="limpiezaDeOidos" name="limpiezaOidos" value="Limpieza de Oidos ">
       <label class="custom-control-label" for="limpiezaDeOidos"> Limpieza de Oidos</label>
     </div>
     </div>
     <div class="row">
         <div class="col-6 custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input" id="limpiezaDeLagrimales" name="limpiezaLagrimales">
+          <input type="checkbox" class="custom-control-input" id="limpiezaDeLagrimales" name="limpiezaLagrimales" value="Limpieza de Lagrimales ">
           <label class="custom-control-label" for="limpiezaDeLagrimales">Limpieza de Lagrimales</label>
         </div>
     <div class="col-6 custom-control custom-checkbox">
-      <input type="checkbox" class="custom-control-input" id="drenajeDeGlandulasPerianales" name="perianales">
+      <input type="checkbox" class="custom-control-input" id="drenajeDeGlandulasPerianales" name="perianales" vlaue="Limpieza de Glandulas Perianales ">
       <label class="custom-control-label" for="drenajeDeGlandulasPerianales">Drenaje de Glandulas Perianales</label>
     </div>
     </div>
     <div class="row">
         <div class="col-6 custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input" id="cepilladoDeDientesSuperficial" name="cepilladoDientes">
+          <input type="checkbox" class="custom-control-input" id="cepilladoDeDientesSuperficial" name="cepilladoDientes" value="Cepillado de Dientes ">
           <label class="custom-control-label" for="cepilladoDeDientesSuperficial">Cepillado de Dientes Superficial</label>
         </div>
     <div class="col-6 custom-control custom-checkbox">
-      <input type="checkbox" class="custom-control-input" id="limpiezaDeAlmohadillasPlantares" name="limpiezaAlmohadillas">
+      <input type="checkbox" class="custom-control-input" id="limpiezaDeAlmohadillasPlantares" name="limpiezaAlmohadillas" value="Limpieza de Almohadillas ">
       <label class="custom-control-label" for="limpiezaDeAlmohadillasPlantares">Limpieza de Almohadillas Plantares</label>
     </div>
     </div>
     <div class="row">
         <div class="col-6 custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input" id="banoCosmetico" name="banoCosmetico">
+          <input type="checkbox" class="custom-control-input" id="banoCosmetico" name="banoCosmetico" value="Baño Cosmetico ">
           <label class="custom-control-label" for="banoCosmetico">Bano Cosmetico</label>
         </div>
     <div class="col-6 custom-control custom-checkbox">
-      <input type="checkbox" class="custom-control-input" id="corteConEstilo" name="corteEstilo">
+      <input type="checkbox" class="custom-control-input" id="corteConEstilo" name="corteEstilo" value="Corte Con Estilo ">
       <label class="custom-control-label" for="corteConEstilo">Corte con Estilo</label>
     </div>
     </div>
     <div class="row">
         <div class="col-6 custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input" id="accesorio" name="accesorio">
+          <input type="checkbox" class="custom-control-input" id="accesorio" name="accesorio" value="Accesorio ">
           <label class="custom-control-label" for="accesorio">Accesorio</label>
         </div>
     </div>
@@ -159,18 +153,18 @@
 
     <div class="row">
       <div class="form-group col-md-6">
-        <input type="date" class="form-control" placeholder="En que fecha?" name="fecha">
+        <input type="date" class="form-control" placeholder="En que fecha?" name="fecha" required>
       </div>
     </div>
 
     <h2 class="sobre-ti pb-3">Donde Prefieres que reciba los servicios?</h2>
     <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="A Domicilio" name="domicilio">
-      <label class="form-check-label" for="inlineRadio1">A Domicilio</label>
+      <input class="chechbox" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="A Domicilio" name="domicilio" required>
+      <label class="form-check-label" for="inlineRadio1"> A Domicilio</label>
     </div>
     <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="En sus Instalaciones" name="instalaciones">
-      <label class="form-check-label" for="inlineRadio2">En sus Instalaciones</label>
+      <input class="checkbox" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="En sus Instalaciones" name="instalaciones" required>
+      <label class="form-check-label" for="inlineRadio2"> En sus Instalaciones</label>
     </div>
 
     <h2 class="sobre-ti"> Deja tu Comentario...</h2>
@@ -178,7 +172,7 @@
 
     <div class="row">
       <div class="col-12">
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="comentarios"></textarea>
   </div>
     </div>
 
@@ -193,5 +187,6 @@
 
 
 </section>
+
 
 <%- include ("./partials/footer") %>

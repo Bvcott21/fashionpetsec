@@ -1,0 +1,56 @@
+doctype html
+ 
+style
+    include ./css/recibida.css
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Montserrat&display=swap')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Lobster&display=swap')
+  
+body
+    div.header-image 
+        
+        h1.header-titulo Fashion Pets
+        h1 Tienes una Nueva Orden!
+    
+    br
+    p Esta es una confirmacion automatica de la nueva orden
+    br
+    h3 Aqui los detalles:
+    ul
+        li Nombre: #{nombre} #{apellido}
+        li Numero Telefonico: #{telefono}
+        li Correo Electronico: #{correo}
+        li Domicilio: #{direccion}
+    br
+
+    h3 Aqui los detalles de la mascota:
+    ul
+        li Nombre de tu mascota: #{nombreMascota}
+        li Especie: #{especie}
+        li Raza: #{raza}
+        li Su peso #{peso}
+        li Su estatura: #{altura}
+    br
+    
+
+
+    h3 Los servicios requeridos:
+    
+    p #{servicios}
+    
+    h3 Fecha Solicitada:
+    
+    p #{fecha}
+    
+    h3 Ubicacion:
+    
+    p #{domicilioInstalaciones}
+
+    h3 Comentarios sobre cuidados respecto a la mascota:
+
+    p #{comentarios}
+    
+    div.footer 
+     p © Fashion Pets. Todos los derechos reservados. Desarrollado por Edgar Bucott Afonso.
+    
+    
+
