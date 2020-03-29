@@ -177,8 +177,8 @@ app.route("/precios")
   
   
 
-  cliente.save(function(err) {
-    if(!err) {
+  // cliente.save(function(err) {
+  //   if(!err) {
       res.redirect("gracias");
 
       email
@@ -230,11 +230,11 @@ app.route("/precios")
       comentarios: comentarios
     }
   })
-    } else {
-      console.log(err);
-    }
-  })
-})
+    // } else {
+    //   console.log(err);
+    // }
+  // })
+});
 
 //////////////////////////// Contacto //////////////////////////////
 
