@@ -37,7 +37,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/public'));
 
-mongoose.connect(mongodb+srv:process.env.MONGODB.LINK, {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://FashionPetsDevOps:fashionpets123@clientes-1k7kp.azure.mongodb.net/ClientesFashionPetsDB", {useNewUrlParser: true, useUnifiedTopology: true});
 
 const clienteSchema = new mongoose.Schema ({
   nombre: {type: String, required: true},
